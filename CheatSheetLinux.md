@@ -19,6 +19,7 @@
 |`systemctl is-active [service]`              | check if service is running
 | `systemctl cat [service]`                   | show information about the service
 | `systemd-analyse`                           |
+| `printenv`                                  | print enviroment variables
 
 
 ## useful console scripts
