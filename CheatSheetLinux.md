@@ -21,6 +21,12 @@
 | `systemd-analyse`                           |
 | `printenv`                                  | print enviroment variables
 
+## change permissions
+| Commands                                    | Description
+| :---                                        | :---
+| **`chown [owner/group owner] [file name]`** | change owner of file
+| **`chmod [permissions] [file name]`**       | change file permissions
+
 
 ## useful console scripts
 | Commands                                    | Description
