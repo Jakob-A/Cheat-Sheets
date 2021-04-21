@@ -28,7 +28,7 @@
 | **`chmod [permissions] [file name]`**       | change file permissions
 
 
-## useful console scripts
+## useful console commands
 | Commands                                    | Description
 | :---                                        | :---
 |**`history`**                                | show last console commands
@@ -38,6 +38,7 @@
 |**`command > out.txt`**                      | redirect stdout
 |**`command 2> out.txt`**                     | redirect stderr
 |**`command > out.txt 2>&1`**                 | redirect both
+**`grep -c [Pattern] [File]**                 | get count of pattern in file
 
 ## System information
 | Commands                                    | Description
