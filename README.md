@@ -1,3 +1,3 @@
 # Cheat Sheets
 
-In this Repo I collect useful commands for the commandline in Linux/MacOs.
+In this Repo I collect useful commands for the commandline in Linux/MacOS.
