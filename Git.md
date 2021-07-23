@@ -7,5 +7,7 @@ Command | Description
 `git checkout --patch [Branch] [File]`| merge only one file
 `git config --list`| show git settings
 `git checkout HEAD~1 [path/to/file]` | checkout file from commit before head
+`git branch -m [old name] [new name]` | rename branch
+`git push origin --delete [Branch Name]` | delete remote branch
 
 
