@@ -7,6 +7,7 @@
 [linter](https://github.com/dense-analysis/ale)
 [plugin-manager](https://github.com/junegunn/vim-plug)
 [vim-system-copy](https://github.com/christoomey/vim-system-copy)
+[vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
 ## Introductions
 
