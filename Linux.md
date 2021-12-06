@@ -11,13 +11,15 @@
 | Commands                                    | Description
 | :---                                        | :---
 | `ip -br a`                                  | show ip address
+| `hostname`                                  | show hostname
+| `hostnamectl ser-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
 
 
 ## System Administration
 | Commands                                    | Description
 | :---                                        | :---
 |**`systemd`**                                | system and service manager
-|**`systemctl`**                                  | control services
+|**`systemctl`**                              | control services
 |`systemctl status [service]`                 | get status information about the service
 |`systemctl reload-or-restart [service]`      | restart service
 |`systemctl kill [service]`                   | terminate service
@@ -28,6 +30,9 @@
 | `du`                                        | get file/directory size/disk usage
 | `system --status-all`                       | list status of services
 | `sudo update-alternatives --config python3` | change python3 version (*if the config python3 was set before*)
+| `passwd [user]`                             | change user password (all passwords are stored in `/etc/shadow`)
+| `passwd -d [user]`                          | clears/deletes password of user
+| `sudo shutdown now`                         | initialise shutdown
 
 ## apt package manager
 | Commands                                    | Description
