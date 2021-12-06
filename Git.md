@@ -9,5 +9,7 @@ Command | Description
 `git checkout HEAD~1 [path/to/file]` | checkout file from commit before head
 `git branch -m [old name] [new name]` | rename branch
 `git push origin --delete [Branch Name]` | delete remote branch
+`git config --global core.editor "vim"` | change git editor
+`git cherry-pick [commit]` | put a commit from another branch on top of your history 
 
 
