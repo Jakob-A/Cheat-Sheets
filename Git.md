@@ -1,5 +1,7 @@
 # Cheat Sheet Git
 
+## General Commands
+
 Command | Description
 :--- | :---
 `git reset --hard origin/[branch name]` | resets local files to the state on origin, **deletes any local changes**
@@ -12,4 +14,10 @@ Command | Description
 `git config --global core.editor "vim"` | change git editor
 `git cherry-pick [commit]` | put a commit from another branch on top of your history 
 
+## Clone Repo into existing folder
 
+1. `cd [folder]`
+2. `git init`
+3. `vim .gitignore` + `git add .` + `git commit`
+4. `git remote add origin [Web Address]`
+5. `git pull origin` (add `----allow-unrelated-histories`, if the upstream repo isn't empty)
