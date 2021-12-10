@@ -1,12 +1,14 @@
 # Linux command line
 
 ## Networking
+
 > required package **net-tools**
- - `arp`
- - `ifconfig`
- - `ip`
- - `netstat`
- - `route`
+
+- `arp`
+- `ifconfig`
+- `ip`
+- `netstat`
+- `route`
 
 | Commands                                    | Description
 | :---                                        | :---
@@ -14,8 +16,8 @@
 | `hostname`                                  | show hostname
 | `hostnamectl ser-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
 
-
 ## System Administration
+
 | Commands                                    | Description
 | :---                                        | :---
 |**`systemd`**                                | system and service manager
@@ -35,36 +37,38 @@
 | `sudo shutdown now`                         | initialise shutdown
 
 ## apt package manager
+
 | Commands                                    | Description
 | :---                                        | :---
 | `apt list --installed`                      | list installed packages
 | `apt remove [package]`                      | uninstall package
 
 ## change permissions
+
 | Commands                                    | Description
 | :---                                        | :---
 | **`chown [owner/group owner] [file name]`** | change owner of file
 | **`chmod [permissions] [file name]`**       | change file permissions
 
-
 ## useful console commands
+
 | Commands                                    | Description
 | :---                                        | :---
 |**`history`**                                | show last console commands
-|**`find`**                                   | search for files or directorys 
+|**`find`**                                   | search for files or directorys
 |`find -name test.txt`                        | shows where test.txt is
-|`find . -name \*test\*`                      | every file/dir with test in its name 
+|`find . -name \*test\*`                      | every file/dir with test in its name
 |**`command > out.txt`**                      | redirect stdout
 |**`command 2> out.txt`**                     | redirect stderr
 |**`command > out.txt 2>&1`**                 | redirect both
 **`grep -c [Pattern] [File]`**                 | get count of pattern in file
 
 ## System information
+
 | Commands                                    | Description
 | :---                                        | :---
 | `cat /proc/cpuinfo`                         | shows information about the cpu cores
 | `cat /proc/meminfo`                         | prints memory information
-
 
 ## keep ssh connection alive
 
