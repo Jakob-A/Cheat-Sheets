@@ -14,7 +14,7 @@
 | :---                                        | :---
 | `ip -br a`                                  | show ip address
 | `hostname`                                  | show hostname
-| `hostnamectl ser-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
+| `hostnamectl set-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
 
 ## System Administration
 
@@ -52,16 +52,14 @@
 
 ## useful console commands
 
-| Commands                                    | Description
-| :---                                        | :---
-|**`history`**                                | show last console commands
-|**`find`**                                   | search for files or directorys
-|`find -name test.txt`                        | shows where test.txt is
-|`find . -name \*test\*`                      | every file/dir with test in its name
-|**`command > out.txt`**                      | redirect stdout
-|**`command 2> out.txt`**                     | redirect stderr
-|**`command > out.txt 2>&1`**                 | redirect both
-**`grep -c [Pattern] [File]`**                 | get count of pattern in file
+| Commands                                  | Description
+| :---                                      | :---
+| **`history`**                             | show last console commands
+| **`find`**                                | search for files or directorys
+| `find -name test.txt`                     | shows where test.txt is
+| `find . -name \*test\*`                   | every file/dir with test in its name
+| **`grep -c [Pattern] [File]`**            | get count of pattern in file
+| `cd -`                                    | jump back to the last used directory
 
 ## System information
 
