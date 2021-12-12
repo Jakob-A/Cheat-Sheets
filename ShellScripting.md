@@ -16,7 +16,7 @@ These commands are for the shell `bash`, but should work with most other shells.
 | `$#`                                          | get number of given parameters
 | `$*` / `$@`                                   | get all given parameters
 | `$[number]`                                   | get call parameter
-| `if [ condition ] then ... elif [ conition2 ] ... else ... fi` | if - condition
+| `if [ condition ]` <br> `then` <br> `...` <br>`elif [ conition2 ]` <br> `...` <br> `else` <br>`...` <br> `fi` | if - condition
 | `[ string1 = string2 ]`                       | true if both strings are identical
 | `[ string1 != string2 ]`                      | true if both strings are not identical
 | `[ -n string ]`                               | true if string is not zero
