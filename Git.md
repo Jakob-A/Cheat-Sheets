@@ -12,7 +12,11 @@ Command | Description
 `git branch -m [old name] [new name]` | rename branch
 `git push origin --delete [Branch Name]` | delete remote branch
 `git config --global core.editor "vim"` | change git editor
-`git cherry-pick [commit]` | put a commit from another branch on top of your history 
+`git cherry-pick [commit]` | put a commit from another branch on top of your history
+`git log --grep='search for'` | search through commit messages
+`git pull -r origin [Branch]` | update source branch of current branch, if *x* was branched from *main* and *main* was updated afterwards these updates will be loaded below the commits made on *x*
+`git rebase -i [commit id]` | look interactive on the commits till `commit id`, the order can be changed for example, go back x commits from HEAD with `HEAD~[x]`
+`git stash drop` | delete stashed changes
 
 ## Clone Repo into existing folder
 
