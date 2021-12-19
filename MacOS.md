@@ -18,3 +18,8 @@ en1 means wireless; and fw0 means firewire
 <hr>
 
 ## Keyboard Shortcuts
+
+## Stop Programs to Start at Bootup
+
+1. Settings->Benutzer&Gruppen->Anmeldeobjekte
+2. delete plists at `~/Library/LaunchAgents`
