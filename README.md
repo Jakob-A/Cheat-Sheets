@@ -10,6 +10,7 @@ You can find the following cheat sheets:
 - [radare2](CommandlineTools/radare2.md)
 - [ShellScripting](CommandlineTools/ShellScripting.md)
 - [SSH](CommandlineTools/ssh.md)
+- [usefulTools](CommandlineTools/usefulTools.md)
 - [vim](CommandlineTools/vim.md)
 
 **Languages**
