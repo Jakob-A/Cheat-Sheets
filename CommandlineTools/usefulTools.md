@@ -23,6 +23,16 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `crtl-b d`                                  | detach a session
 | `exit`                                      | close current session
 
+### byobu
+
+| Commands                                    | Description
+| :---                                        | :---
+| `byobu new -s [session-name]`               | create a new session with a specific session name
+| `byobu-select-session`                      | list currently running byobu sessions and select one
+| F6                                          | exit session
+| `byobu-config` or F9                        | configure byobu status bar
+
+
 ## Networking
 
 > required package **net-tools**

@@ -23,3 +23,4 @@ These commands are for the shell `bash`, but should work with most other shells.
 | `[ -z string ]`                               | true if string is zero
 | `[ value1 -eq value2 ]`                       | true if values are the same, other options are <br> `-ne` (not equal) <br> `-gt` (greater than) <br> `-ge` (greater than or equal) <br> `-lt` (less than) <br> `-le` (less than or equal to) <br> `!value` (not)
 | `[ -d file ]`                                 | check if file is an directory, other options: <br> `-e` (file exists) <br> `-f` (normal file) <br> `-g` (is group id set?) <br> `-r` (readable) <br> `-s` (file exists and is bigger than 0 bytes) <br> `-u` (is user id set?) <br> `-w` (writable) <br> `-x` (executable) 
+| `set -e`                                      | Shell scripts exit on error
