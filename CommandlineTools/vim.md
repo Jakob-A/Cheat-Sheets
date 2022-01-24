@@ -23,6 +23,9 @@
 **Nerdtree**
 
 `F3` - toggle/enable Nerdtree
+`t` - open in new tab
+`gt` - next tab
+`gT` - previous tab
 
 **vim-system-copy**
 

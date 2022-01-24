@@ -22,6 +22,10 @@
 | `passwd -d [user]`                          | clears/deletes password of user
 | `sudo shutdown now`                         | initialise shutdown
 | `who`                                       | list logged in user
+| `adduser [user]`                            | add user
+| `groups [user]`                             | see user's groups
+| `usermod -aG [group] [user]`                | add user to specific group
+
 
 ## apt package manager
 
@@ -44,5 +48,6 @@
 | :---                                        | :---
 | `cat /proc/cpuinfo`                         | shows information about the cpu cores
 | `cat /proc/meminfo`                         | prints memory information
+| `cat /proc/[PID]/maps`                      | show memory areas of process
 
 > Install and configure samba [https://ubuntu.com/tutorials/install-and-configure-samba#1-overview]
