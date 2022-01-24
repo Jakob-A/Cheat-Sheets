@@ -21,6 +21,7 @@
 | `passwd [user]`                             | change user password (all passwords are stored in `/etc/shadow`)
 | `passwd -d [user]`                          | clears/deletes password of user
 | `sudo shutdown now`                         | initialise shutdown
+| `who`                                       | list logged in user
 
 ## apt package manager
 

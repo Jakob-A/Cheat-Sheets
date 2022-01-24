@@ -12,6 +12,7 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `find . -name \*test\*`                   | every file/dir with test in its name
 | **`grep -c [Pattern] [File]`**            | get count of pattern in file
 | `cd -`                                    | jump back to the last used directory
+| `wc`                                      | list new lines, word count and byte count of file
 
 ## keep ssh connection alive
 
