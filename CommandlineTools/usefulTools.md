@@ -31,6 +31,8 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `byobu-select-session`                      | list currently running byobu sessions and select one
 | F6                                          | exit session
 | `byobu-config` or F9                        | configure byobu status bar
+| `byobu list-session`                        | list running sessions
+| `byobu kill-session -t [session name]`      | kill session
 
 
 ## Networking
