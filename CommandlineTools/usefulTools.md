@@ -13,6 +13,8 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | **`grep -c [Pattern] [File]`**            | get count of pattern in file
 | `cd -`                                    | jump back to the last used directory
 | `wc`                                      | list new lines, word count and byte count of file
+| `du -hs [directory]`                      | print disk usage of direktory
+| `du -hd 1 [directory]`                    | print disk usage of all subdirectories
 
 ## keep ssh connection alive
 
@@ -51,3 +53,17 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `ip -br a`                                  | show ip address
 | `hostname`                                  | show hostname
 | `hostnamectl set-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
+
+
+# Analyze binaries
+
+| Commands                                    | Description
+| :---                                        | :---
+| `file [file]`                               | prints file type and other general information
+| `ldd [file]`                                | print shared object dependencies
+| `ltrace [file]`                             | displays all the binary functions that are used !! executes the file
+| `hexdump [file]`                            | print hex of binary
+| `strings [file]`                            | print strings included in the binary
+| `readelf [options] [file]`                  | display information about ELF files
+| `objdump -d [file]`                         | disassemble file, with other options other information about the binary
+| `nm [file]`                                 | list symbols of the file
