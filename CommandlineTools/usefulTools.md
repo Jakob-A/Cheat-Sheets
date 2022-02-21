@@ -13,6 +13,7 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | **`grep -c [Pattern] [File]`**            | get count of pattern in file
 | `cd -`                                    | jump back to the last used directory
 | `wc`                                      | list new lines, word count and byte count of file
+| `find . -name "*.py" | xargs wc -l`       | count code lines in python files (option `-w` creates a word count)
 
 ## keep ssh connection alive
 
