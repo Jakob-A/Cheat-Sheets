@@ -15,6 +15,7 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `wc`                                      | list new lines, word count and byte count of file
 | `du -hs [directory]`                      | print disk usage of direktory
 | `du -hd 1 [directory]`                    | print disk usage of all subdirectories
+| `tar xvf [tar archive]`                   | untar archive
 
 ## keep ssh connection alive
 

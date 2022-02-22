@@ -1,5 +1,10 @@
 # Radare2 Cheat Sheet
 
+| commands                                    | Description
+| :---                                        | :---
+| `r2 -A [binary]` + `VV`                     | enter Visual Graphs [more detailed](https://monosource.gitbooks.io/radare2-explorations/content/intro/visual_graphs.html)
+
+
 | Key Board Shortcuts                         | Description
 | :---                                        | :---
 | `[SHIFT] v`                                 | enter visual mode
@@ -35,3 +40,4 @@ Command line tool from radare2, which can list all sorts of informations about t
 Tool to search binaries.
 *Examples*
 `rafind2 -s printf [binary]` - shows addresses where it can find printf
+
