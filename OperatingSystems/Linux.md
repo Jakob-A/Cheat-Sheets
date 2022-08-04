@@ -49,5 +49,6 @@
 | `cat /proc/cpuinfo`                         | shows information about the cpu cores
 | `cat /proc/meminfo`                         | prints memory information
 | `cat /proc/[PID]/maps`                      | show memory areas of process
+| `df -h`                                     | display filesystems
 
 > Install and configure samba [https://ubuntu.com/tutorials/install-and-configure-samba#1-overview]

@@ -56,6 +56,7 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `ip -br a`                                  | show ip address
 | `hostname`                                  | show hostname
 | `hostnamectl set-hostname [new-hostname]`   | change hostname (alternative: edit `/etc/hostname`)
+| `nmap -sP [IP - Range]`                     | Ping scan in the network
 
 
 # Analyze binaries

@@ -15,7 +15,7 @@
 
 /* Debug Log */
 extern int VERBOSE;
-#define vLOG(fmt, args...) ({\
+#define dLOG(fmt, args...) ({\
     if (VERBOSE == 1){\
         printf("[%20s] LOG: ", __FUNCTION__);\
         printf(fmt"\n", args);\
