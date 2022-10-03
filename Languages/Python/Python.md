@@ -9,10 +9,10 @@ import getopt
 
 len(sys.argv) # returns number of given arguments + 1 (sys.argv[0] is the script name)
 
-sys.argv[1] # get first argument 
+sys.argv[1] # get first argument
 
 """
-parses optional parameter in tuples into the variable opts and the 
+parses optional parameter in tuples into the variable opts and the
 commandline arguments into args
 Example: python test.py -x 1 -y 2 A B
         opts = [('-x',1), ('-y', 2)]
@@ -27,11 +27,11 @@ import argparse
 
 # create parser
 parser = argparse.ArgumentParser()
- 
+
 # add arguments to the parser
 parser.add_argument("language")
 parser.add_argument("name")
- 
+
 # parse the arguments
 args = parser.parse_args()
 
@@ -39,4 +39,19 @@ args = parser.parse_args()
 args.language
 args.name
 
+```
+
+## Example try/exept
+
+```Python
+try:
+        # some code
+except SomeException as e:
+        LOG.warn(f"Error Error :) {str(e)}")
+```
+
+## Create Copy of List
+
+```Python
+mylist = thislist.copy()
 ```
