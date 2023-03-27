@@ -4,10 +4,10 @@
 
 ## System Administration
 
-| Commands                                    | Description
-| :---                                        | :---
-|**`systemd`**                                | system and service manager
-|**`systemctl`**                              | control services
+| Commands  | Description
+| :---  | :---
+|**`systemd`**  | system and service manager
+|**`systemctl`** | control services
 |`systemctl status [service]`                 | get status information about the service
 |`systemctl reload-or-restart [service]`      | restart service
 |`systemctl kill [service]`                   | terminate service
@@ -25,6 +25,18 @@
 | `adduser [user]`                            | add user
 | `groups [user]`                             | see user's groups
 | `usermod -aG [group] [user]`                | add user to specific group
+| `ps -u [user]` | see processes run by a specified user
+
+
+### Delete User
+
+1. Lock the account: `sudo passwd -l [user]`
+2. Kill running processes `sudo pkill -KILL -u [user]`
+3. Remove cron jobs `sudo crontab -r -u [user]`
+4. Remove print jobs `lprm -U [user]`
+5. Delete User:
+	- on Debian Systems: `sudo deluser --remove-home [user]`
+	- on all other: `sudo userdel --remove [user]`
 
 
 ## apt package manager

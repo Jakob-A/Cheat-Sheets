@@ -1,5 +1,3 @@
-# Cheat Sheet Git
-
 ## General Commands
 
 Command | Description
@@ -34,3 +32,11 @@ Command                                 | Description
 `git config --list`                     | show git settings
 `git config --global core.editor "vim"` | change git editor
 `git config --global core.excludesfile ~/.gitignore_global` | set global gitignore file
+
+
+## Submodules
+
+Command                                                 | Description
+:---                                                    | :---
+`git submodule add <remote_url> <destination_folder>`   | adds a submodule to the specified folder
+`git submodule update --init --recursive`               | download submodule

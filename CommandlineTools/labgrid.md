@@ -11,3 +11,4 @@
 | `labgrid-client -p [device-name] power off`   | turn off the device's power
 | `labgrid-client -p [device-name] release`     | release aquired device
 | `labgrid-client who`                          | list aquired devices and who aquires them
+| `labgrid-client -p [device-name] env`          | generate environment config for device
