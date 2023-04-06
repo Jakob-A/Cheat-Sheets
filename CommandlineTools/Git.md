@@ -14,6 +14,8 @@ Command | Description
 `git rebase -i [commit id]`                 | look interactive on the commits till `commit id`, the order can be changed for example, go back x commits from HEAD with `HEAD~[x]`
 `git stash drop`                            | delete stashed changes
 `git checkout -- [file]`                    | reset changes in a single file
+`git add --patch [file]`                    | Add part of a file
+
 
 ## Clone Repo into existing folder
 
@@ -40,3 +42,4 @@ Command                                                 | Description
 :---                                                    | :---
 `git submodule add <remote_url> <destination_folder>`   | adds a submodule to the specified folder
 `git submodule update --init --recursive`               | download submodule
+`git submodule deinit -f -all` | remove all submodules -> afterwards they can be reinitialised

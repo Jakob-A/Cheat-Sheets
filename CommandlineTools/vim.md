@@ -31,3 +31,12 @@
 
 `cp` - copy something into the system clipboard
 `cv` - pasting
+
+
+## Useful Commands
+
+Command | Description
+:--- | :--
+`:[range]s/{pattern}/{string}/[flags] [count]` | search and replace pattern, use `%s` for whole file, flags: `g` - replace all, `gc` - confirm each replacement
+`[number of lines]dd`  | delete/cut a specific number of lines, can be pasted afterwards with `p`
+
