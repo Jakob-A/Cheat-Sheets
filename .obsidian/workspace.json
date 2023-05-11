@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Python/Python.md",
+                "file": "CommandlineTools/radare2.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "ea0a717410168169",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CommandlineTools/radare2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CommandlineTools/radare2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CommandlineTools/radare2.md"
+              }
             }
           },
           {
@@ -150,20 +162,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ac255267ea95f3f",
+  "active": "90c6b136bcf7c795",
   "lastOpenFiles": [
-    "Languages/Python/Documentation.md",
+    "Languages/System Verilog/Syntax.md",
+    "Languages/System Verilog/Operators.md",
+    "Languages/System Verilog/Numbers.md",
+    "Languages/System Verilog/Modules.md",
+    "Languages/System Verilog/General Overview.canvas",
+    "Languages/System Verilog",
+    "Languages/Python/Build-In Exceptions.md",
+    "Languages/VHDL/Data Types.md",
+    "Languages/VHDL/General Overview.canvas",
+    "Languages/VHDL/Entity & Architecture.md",
+    "CommandlineTools/gpg.md",
+    "CommandlineTools/Git.md",
+    "CommandlineTools/SerialTools.md",
+    "CommandlineTools/Docker.md",
+    "CommandlineTools/ShellScripting.md",
+    "CommandlineTools/usefulTools.md",
+    "CommandlineTools/vim.md",
+    "CommandlineTools/example_vimrc",
     "Languages/Python/Python.md",
+    "Languages/Python/Documentation.md",
     "raspberriPi.md",
     "2023-04-04.md",
-    "CommandlineTools/Git.md",
-    "CommandlineTools/vim.md",
     "README.md",
     "Untitled.canvas",
     "OperatingSystems/Linux.md",
     "Untitled 1.canvas",
     "2023-03-27.md",
-    "CommandlineTools/Docker.md",
     "CommandlineTools/dockercheatsheet8.png"
   ]
 }

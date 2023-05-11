@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"file","file":"Languages/VHDL/Entity & Architecture.md","id":"e4165c95d23d9efa","x":-620,"y":-440,"width":640,"height":880},
+		{"type":"text","text":"## Logic Values\nValue | Name | Description\n:--- | :--- | :---\n0 | strong low | Treiberausgang definiert\n1 | strong high | Treiberausgang definiert\nL | weak low | Pull-Down\nH | weak high | Pull-Up\nX | strong unknown | Treiberausgang undefiniert\nW | weak unknown | Bus-Keeper uninitialisiert\nZ | high impedance | Tri-State\n\\- | don't care | -\nU | uninitialized | FF-Ausgang uninitialisiert","id":"8d4a58b3f181871f","x":80,"y":-440,"width":440,"height":580},
+		{"id":"844d6adbc0baeb74","x":80,"y":180,"width":620,"height":160,"type":"text","text":"## Compiler\n\n**Example:** Compiling file `my_work_lib.vhd` into the work library\n `vcom -work my_work_lib my_module.vhd`"},
+		{"id":"c7e32519d3f2c62b","x":540,"y":-440,"width":580,"height":580,"type":"text","text":"## Libraries\n\n### Important Libaries\nLibrary | Description\n:--- | :---\nwork | library of the current project\nstd | Defines basic data types and functions for input and output\nieee | Important data types\n\n### Import Libraries\n> **Note**: `work` and `std` get imported on default meaning `library work;` is unnecessary\n\n```VHDL\n-- data types and functions from IEEE standard 1164\nlibrary ieee;\nuse ieee.std_logic_1164.all\n\n-- since work and std don't need the library statement\n-- packages can be included the following way:\nuse std.textio.all  -- standard input/output functions\n```"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,3 @@
+- Case Sensitive
+- No names that start with numbers
+- White space is ignored
