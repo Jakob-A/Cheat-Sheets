@@ -27,3 +27,4 @@ Commands                                      | Description
 `cut -d ":" -f 1` | splits each input line at the ":" character
 `${#STRING}` | return number of characters contained by a string
 `getopts` | Program which parses command line options
+`readarray -t arrayName < <(InputCommand)` | Split input lines into shell array

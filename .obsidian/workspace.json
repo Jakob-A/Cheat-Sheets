@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "96db3ebc66d8f230",
+        "id": "e4feb75bd29907ca",
         "type": "tabs",
         "children": [
           {
-            "id": "90c6b136bcf7c795",
+            "id": "e545485fb35a75af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CommandlineTools/radare2.md",
+                "file": "OperatingSystems/Linux.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47928fe7406c8d3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OperatingSystems/Linux.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "delete",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d1ccfec9c19a2aa4",
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CommandlineTools/radare2.md",
+                "file": "OperatingSystems/Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CommandlineTools/radare2.md",
+                "file": "OperatingSystems/Linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CommandlineTools/radare2.md"
+                "file": "OperatingSystems/Linux.md"
               }
             }
           },
@@ -144,13 +157,26 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "56700f1ebac9a583",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,35 +188,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90c6b136bcf7c795",
+  "active": "47928fe7406c8d3b",
   "lastOpenFiles": [
-    "Languages/System Verilog/Syntax.md",
-    "Languages/System Verilog/Operators.md",
-    "Languages/System Verilog/Numbers.md",
-    "Languages/System Verilog/Modules.md",
-    "Languages/System Verilog/General Overview.canvas",
-    "Languages/System Verilog",
-    "Languages/Python/Build-In Exceptions.md",
-    "Languages/VHDL/Data Types.md",
-    "Languages/VHDL/General Overview.canvas",
-    "Languages/VHDL/Entity & Architecture.md",
-    "CommandlineTools/gpg.md",
     "CommandlineTools/Git.md",
-    "CommandlineTools/SerialTools.md",
-    "CommandlineTools/Docker.md",
-    "CommandlineTools/ShellScripting.md",
-    "CommandlineTools/usefulTools.md",
-    "CommandlineTools/vim.md",
-    "CommandlineTools/example_vimrc",
-    "Languages/Python/Python.md",
-    "Languages/Python/Documentation.md",
-    "raspberriPi.md",
-    "2023-04-04.md",
-    "README.md",
-    "Untitled.canvas",
     "OperatingSystems/Linux.md",
-    "Untitled 1.canvas",
-    "2023-03-27.md",
-    "CommandlineTools/dockercheatsheet8.png"
+    "Languages/Python/Build-In Exceptions.md",
+    "CommandlineTools/Build Tools.md",
+    "CommandlineTools/ShellScripting.md",
+    "CommandlineTools/ssh.md",
+    "CommandlineTools/usefulTools.md",
+    "HardwareDev/System Verilog/General Overview.canvas",
+    "HardwareDev/VHDL/Entity & Architecture.md",
+    "HardwareDev/VHDL/Data Types.md",
+    "HardwareDev/VHDL/Package.md",
+    "HardwareDev/VHDL/Multiplexer.md",
+    "HardwareDev/VHDL/Process.md",
+    "Languages/Python/Pytest.md",
+    "HardwareDev/VHDL/Testbenches.md",
+    "HardwareDev/VHDL/General Overview.canvas",
+    "CommandlineTools/GDB-cheat-sheet.pdf",
+    "HardwareDev/AXI.md",
+    "CommandlineTools/vim.md",
+    "CommandlineTools/Docker.md",
+    "CommandlineTools/dockercheatsheet8.png",
+    "images/AXI-read-channel-architecture.png.md",
+    "images",
+    "images/AXI-read-channel-architecture.md",
+    "HardwareDev/images/AXI4-write-channel-architecture.png",
+    "HardwareDev/images/AXI4-read-channel-architecture.png",
+    "HardwareDev/images",
+    "OperatingSystems/Gnome.md",
+    "HardwareDev",
+    "Languages/Untitled",
+    "HardwareDev/System Verilog/Modules.md",
+    "CommandlineTools/SerialTools.md",
+    "HardwareDev/System Verilog/Operators.md",
+    "HardwareDev/System Verilog/Numbers.md",
+    "CommandlineTools/radare2.md",
+    "HardwareDev/System Verilog/Syntax.md",
+    "HardwareDev/System Verilog",
+    "CommandlineTools/example_vimrc",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
   ]
 }

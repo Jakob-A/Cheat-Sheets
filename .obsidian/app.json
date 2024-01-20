@@ -1,10 +1,7 @@
 {
   "defaultViewMode": "source",
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "de-DE"
-  ],
+  "spellcheckLanguages": null,
   "readableLineLength": false,
   "showUnsupportedFiles": true
 }

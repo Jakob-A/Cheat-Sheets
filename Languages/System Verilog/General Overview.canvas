@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"type":"file","file":"Languages/System Verilog/Syntax.md","id":"052f81f4996d4468","x":-600,"y":-420,"width":400,"height":200},
-		{"type":"file","file":"Languages/System Verilog/Modules.md","id":"fdad0397223cc8d4","x":-600,"y":-160,"width":700,"height":520},
-		{"type":"file","file":"Languages/System Verilog/Operators.md","id":"a9ac612ce05f9921","x":140,"y":-420,"width":600,"height":940},
-		{"id":"e1f613abf18ecaf3","x":-600,"y":400,"width":700,"height":380,"type":"file","file":"Languages/System Verilog/Numbers.md"}
-	],
-	"edges":[]
-}
