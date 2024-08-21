@@ -62,13 +62,13 @@ Commands                                    | Description
 
 ## System information
 
-Commands                                    | Description
-:---                                        | :---
-`cat /proc/cpuinfo`                         | shows information about the cpu cores
-`cat /proc/meminfo`                         | prints memory information
-`cat /proc/[PID]/maps`                      | show memory areas of process
-`df -h`                                     | display filesystems
-`cat /etc/os-release` | Show OS/Distro Version
+| Commands               | Description                           |
+| :--------------------- | :------------------------------------ |
+| `cat /proc/cpuinfo`    | shows information about the cpu cores |
+| `cat /proc/meminfo`    | prints memory information             |
+| `cat /proc/[PID]/maps` | show memory areas of process          |
+| `df -h`                | display filesystems                   |
+| `cat /etc/os-release`  | Show OS/Distro Version                |
 
 
 > Install and configure samba [https://ubuntu.com/tutorials/install-and-configure-samba#1-overview]
@@ -90,3 +90,4 @@ Commands                                    | Description
 4. Mark file as swap space: `sudo mkswap /swapfile`
 5. Turn on swap: `sudo swapon /swapfile`
 6. Check change with: `sudo swapon -s` or `free -h`
+7. Add uncomment old swap and add new swap in `/etc/fstab` add this: `sudo swapon /swapfile

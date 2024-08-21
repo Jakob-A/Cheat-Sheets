@@ -4,21 +4,22 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 
 ## useful console commands
 
-Commands                                  | Description
-:---                                      | :---
-**`history`**                             | show last console commands
-**`find`**                                | search for files or directorys
-`find -name test.txt`                     | shows where test.txt is
-`find . -name \*test\*`                   | every file/dir with test in its name
-**`grep -c [Pattern] [File]`**            | get count of pattern in file
-`grep [Pattern] --exclude-dir=[directory]` | exclude directory from search
-`cd -`                                    | jump back to the last used directory
-`wc`                                      | list new lines, word count and byte count of file
-`find . -name "*.py" \| xargs wc -l`       | count code lines in python files (option `-w` creates a word count)
-`du -hs [directory]`                      | print disk usage of direktory
-`du -hd 1 [directory]`                    | print disk usage of all subdirectories
-`tar xvf [tar archive]`                   | untar archive
-`find . -name [file_name] | xargs grep [Pattern]`| search in files with specific name
+| Commands                                       | Description                                                         |
+| :--------------------------------------------- | :------------------------------------------------------------------ |
+| **`history`**                                  | show last console commands                                          |
+| **`find`**                                     | search for files or directorys                                      |
+| `find -name test.txt`                          | shows where test.txt is                                             |
+| `find . -name \*test\*`                        | every file/dir with test in its name                                |
+| **`grep -c [Pattern] [File]`**                 | get count of pattern in file                                        |
+| `grep [Pattern] --exclude-dir=[directory]`     | exclude directory from search                                       |
+| `cd -`                                         | jump back to the last used directory                                |
+| `wc`                                           | list new lines, word count and byte count of file                   |
+| `find . -name "*.py" \| xargs wc -l`           | count code lines in python files (option `-w` creates a word count) |
+| `du -hs [directory]`                           | print disk usage of direktory                                       |
+| `du -hd 1 [directory]`                         | print disk usage of all subdirectories                              |
+| `tar xvf [tar archive]`                        | untar archive                                                       |
+| `find . -name [file_name]xargs grep [Pattern]` | search in files with specific name                                  |
+| `identify -verbose [path-to-image]`            | show format and properties of image files                           |
 
 ## keep ssh connection alive
 

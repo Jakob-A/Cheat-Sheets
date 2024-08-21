@@ -6,7 +6,7 @@ Command | Description
 `git rm --cached [File]`                    | delete file on origin but not local (untrack file)
 `git checkout --patch [Branch] [File]`      | merge only one file
 `git checkout HEAD~1 [path/to/file]`        | checkout file from commit before head, **reset one file**
-`git branch -m [old name] [new name]`       | rename branch
+`git branch -m [old name] [new name]`       | rename branch, *note*: to update the remote branch delete the remote (`git push origin --delete <old-name>`)
 `git branch -d [Branch Name]` | delete local branch
 `git branch -f [Branch Name] [Commit Hash]` | move branch pointer to another commit
 `git branch` | list all local branches

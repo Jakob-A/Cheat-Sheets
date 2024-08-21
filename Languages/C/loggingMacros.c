@@ -12,6 +12,7 @@
 /* Error Log */
 #define error_fmt(fmt) "ERROR: " fmt "\n"
 #define errLOG(fmt, args...) fprintf(stderr, "[%s] " error_fmt(fmt), __FUNCTION__, ##args)
+#define ESP_LOGI( tag, fmt, args... ) fprintf(stdout, "[%s] "fmt"\n", tag, ##args)
 
 /* Debug Log */
 extern int VERBOSE;

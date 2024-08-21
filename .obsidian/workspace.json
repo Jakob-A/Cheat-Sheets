@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OperatingSystems/Linux.md",
+                "file": "CommandlineTools/Docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,16 +23,13 @@
             "id": "47928fe7406c8d3b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "OperatingSystems/Linux.md",
-                "mode": "source",
-                "source": false
+                "file": "CommandlineTools/dockercheatsheet8.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "delete",
+                "query": "fstab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OperatingSystems/Linux.md",
+                "file": "CommandlineTools/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OperatingSystems/Linux.md",
+                "file": "CommandlineTools/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OperatingSystems/Linux.md"
+                "file": "CommandlineTools/Docker.md"
               }
             }
           },
@@ -188,44 +185,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47928fe7406c8d3b",
+  "active": "e545485fb35a75af",
   "lastOpenFiles": [
-    "CommandlineTools/Git.md",
-    "OperatingSystems/Linux.md",
-    "Languages/Python/Build-In Exceptions.md",
-    "CommandlineTools/Build Tools.md",
-    "CommandlineTools/ShellScripting.md",
-    "CommandlineTools/ssh.md",
     "CommandlineTools/usefulTools.md",
+    "CommandlineTools/Docker.md",
+    "CommandlineTools/Build Tools.md",
+    "OperatingSystems/Setup of new Computer.md",
+    "OperatingSystems/Linux.md",
+    "CommandlineTools/dockercheatsheet8.png",
+    "Languages/Python/Build-In Exceptions.md",
+    "Languages/Python/Python.md",
+    "Languages/Python/Pytest.md",
+    "CommandlineTools/Virtio.md",
+    "CommandlineTools/gpg.md",
+    "CommandlineTools/vim.md",
+    "CommandlineTools/GDB-cheat-sheet.pdf",
+    "CommandlineTools/Git.md",
+    "CommandlineTools/ssh.md",
+    "OperatingSystems/Gnome.md",
+    "Languages/Python/Documentation.md",
+    "CommandlineTools/ShellScripting.md",
     "HardwareDev/System Verilog/General Overview.canvas",
     "HardwareDev/VHDL/Entity & Architecture.md",
     "HardwareDev/VHDL/Data Types.md",
     "HardwareDev/VHDL/Package.md",
     "HardwareDev/VHDL/Multiplexer.md",
     "HardwareDev/VHDL/Process.md",
-    "Languages/Python/Pytest.md",
     "HardwareDev/VHDL/Testbenches.md",
     "HardwareDev/VHDL/General Overview.canvas",
-    "CommandlineTools/GDB-cheat-sheet.pdf",
     "HardwareDev/AXI.md",
-    "CommandlineTools/vim.md",
-    "CommandlineTools/Docker.md",
-    "CommandlineTools/dockercheatsheet8.png",
     "images/AXI-read-channel-architecture.png.md",
     "images",
     "images/AXI-read-channel-architecture.md",
     "HardwareDev/images/AXI4-write-channel-architecture.png",
     "HardwareDev/images/AXI4-read-channel-architecture.png",
     "HardwareDev/images",
-    "OperatingSystems/Gnome.md",
     "HardwareDev",
     "Languages/Untitled",
-    "HardwareDev/System Verilog/Modules.md",
-    "CommandlineTools/SerialTools.md",
-    "HardwareDev/System Verilog/Operators.md",
-    "HardwareDev/System Verilog/Numbers.md",
-    "CommandlineTools/radare2.md",
-    "HardwareDev/System Verilog/Syntax.md",
     "HardwareDev/System Verilog",
     "CommandlineTools/example_vimrc",
     "Untitled.canvas",

@@ -1,4 +1,5 @@
-# Python Cheat Sheet
+## Userful Links
+[requirements.txt version comparisions](https://packaging.python.org/en/latest/specifications/version-specifiers/#id5)
 
 ### get command line arguments
 
