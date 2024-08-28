@@ -1,13 +1,13 @@
 # Radare2 Cheat Sheet
 
-| commands                                    | Description
-| :---                                        | :---
-| `r2 -A [binary]` + `VV`                     | enter Visual Graphs [more detailed](https://monosource.gitbooks.io/radare2-explorations/content/intro/visual_graphs.html)
+| commands                | Description                                                                                                               |
+| :---------------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| `r2 -A [binary]` + `VV` | enter Visual Graphs [more detailed](https://monosource.gitbooks.io/radare2-explorations/content/intro/visual_graphs.html) |
 
 
-| Key Board Shortcuts                         | Description
-| :---                                        | :---
-| `[SHIFT] v`                                 | enter visual mode
+| Key Board Shortcuts | Description       |
+| :------------------ | :---------------- |
+| `[SHIFT] v`         | enter visual mode |
 | `q`                                         | quit visual mode
 | `p`                                         | switch viewing mode forwards
 | `[SHIFT] p`                                 | switch viewing mode backwards
@@ -19,13 +19,13 @@
 | `ii`                                        | show imports
 
 
-| Prompt commands                             | Description
-| :---                                        | :---
-| `aaa`                                       | Analyse binary
-| `afl`                                       | show functions
-| `s [function name]`                         | go to function name
-| `axt`                                       | see from where a function is called (crossreference to)
-| `axf`                                       | crossreference from
+| Prompt commands     | Description                                             |
+| :------------------ | :------------------------------------------------------ |
+| `aaa`               | Analyse binary                                          |
+| `afl`               | show functions                                          |
+| `s [function name]` | go to function name                                     |
+| `axt`               | see from where a function is called (crossreference to) |
+| `axf`               | crossreference from                                     |
 
 ## radare2 Utilities
 

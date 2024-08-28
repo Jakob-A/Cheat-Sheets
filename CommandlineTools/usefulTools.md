@@ -20,6 +20,7 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `tar xvf [tar archive]`                        | untar archive                                                       |
 | `find . -name [file_name]xargs grep [Pattern]` | search in files with specific name                                  |
 | `identify -verbose [path-to-image]`            | show format and properties of image files                           |
+| `sudo lshw -short`                             | List Hardware of the current machine                                |
 
 ## keep ssh connection alive
 

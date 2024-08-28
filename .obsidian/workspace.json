@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CommandlineTools/Docker.md",
+                "file": "CommandlineTools/usefulTools.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CommandlineTools/Docker.md",
+                "file": "CommandlineTools/usefulTools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CommandlineTools/Docker.md",
+                "file": "CommandlineTools/usefulTools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CommandlineTools/Docker.md"
+                "file": "CommandlineTools/usefulTools.md"
               }
             }
           },
@@ -187,9 +187,15 @@
   },
   "active": "e545485fb35a75af",
   "lastOpenFiles": [
-    "CommandlineTools/usefulTools.md",
+    "Scripts/setupNamespaces.sh",
+    "CommandlineTools/vim.md",
+    "CommandlineTools/gpg.md",
+    "CommandlineTools/Git.md",
     "CommandlineTools/Docker.md",
     "CommandlineTools/Build Tools.md",
+    "CommandlineTools/radare2.md",
+    "CommandlineTools/SerialTools.md",
+    "CommandlineTools/usefulTools.md",
     "OperatingSystems/Setup of new Computer.md",
     "OperatingSystems/Linux.md",
     "CommandlineTools/dockercheatsheet8.png",
@@ -197,10 +203,7 @@
     "Languages/Python/Python.md",
     "Languages/Python/Pytest.md",
     "CommandlineTools/Virtio.md",
-    "CommandlineTools/gpg.md",
-    "CommandlineTools/vim.md",
     "CommandlineTools/GDB-cheat-sheet.pdf",
-    "CommandlineTools/Git.md",
     "CommandlineTools/ssh.md",
     "OperatingSystems/Gnome.md",
     "Languages/Python/Documentation.md",
@@ -214,9 +217,7 @@
     "HardwareDev/VHDL/Testbenches.md",
     "HardwareDev/VHDL/General Overview.canvas",
     "HardwareDev/AXI.md",
-    "images/AXI-read-channel-architecture.png.md",
     "images",
-    "images/AXI-read-channel-architecture.md",
     "HardwareDev/images/AXI4-write-channel-architecture.png",
     "HardwareDev/images/AXI4-read-channel-architecture.png",
     "HardwareDev/images",
