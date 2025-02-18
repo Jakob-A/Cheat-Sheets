@@ -1,24 +1,31 @@
 ## General Commands
 
-Command | Description
-:--- | :---
-`git reset --hard origin/[branch name]`     | resets local files to the state on origin, **deletes any local changes**
-`git rm --cached [File]`                    | delete file on origin but not local (untrack file)
-`git checkout --patch [Branch] [File]`      | merge only one file
-`git checkout HEAD~1 [path/to/file]`        | checkout file from commit before head, **reset one file**
-`git branch -m [old name] [new name]`       | rename branch, *note*: to update the remote branch delete the remote (`git push origin --delete <old-name>`)
-`git branch -d [Branch Name]` | delete local branch
-`git branch -f [Branch Name] [Commit Hash]` | move branch pointer to another commit
-`git branch` | list all local branches
-`git push origin --delete [Branch Name]`    | delete remote branch
-`git cherry-pick [commit]`                  | put a commit from another branch on top of your history
-`git log --grep='search for'`               | search through commit messages
-`git pull -r origin [Branch]`               | update source branch of current branch, if *x* was branched from *main* and *main* was updated afterwards these updates will be loaded below the commits made on *x*
-`git rebase -i [commit id]`                 | look interactive on the commits till `commit id`, the order can be changed for example, go back x commits from HEAD with `HEAD~[x]`
-`git stash drop`                            | delete stashed changes
-`git checkout -- [file]`                    | reset changes in a single file
-`git add --patch [file]`                    | Add part of a file
+| Command                                     | Description                                                                                                                                                          |
+| :------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git reset --hard origin/[branch name]`     | resets local files to the state on origin, **deletes any local changes**                                                                                             |
+| `git rm --cached [File]`                    | delete file on origin but not local (untrack file)                                                                                                                   |
+| `git checkout --patch [Branch] [File]`      | merge only one file                                                                                                                                                  |
+| `git checkout HEAD~1 [path/to/file]`        |  checkout file from commit before head, **reset one file**                                                                                                           |
+| `git branch -m [old name] [new name]`       | rename branch, *note*: to update the remote branch delete the remote (`git push origin --delete <old-name>`)                                                         |
+| `git branch -d [Branch Name]`               | delete local branch                                                                                                                                                  |
+| `git branch -f [Branch Name] [Commit Hash]` | move branch pointer to another commit                                                                                                                                |
+| `git branch`                                | list all local branches                                                                                                                                              |
+| `git push origin --delete [Branch Name]`    | delete remote branch                                                                                                                                                 |
+| `git cherry-pick [commit]`                  | put a commit from another branch on top of your history                                                                                                              |
+| `git log --grep='search for'`               | search through commit messages                                                                                                                                       |
+| `git pull -r origin [Branch]`               | update source branch of current branch, if *x* was branched from *main* and *main* was updated afterwards these updates will be loaded below the commits made on *x* |
+| `git rebase -i [commit id]`                 | look interactive on the commits till `commit id`, the order can be changed for example, go back x commits from HEAD with `HEAD~[x]`                                  |
+| `git stash drop`                            | delete stashed changes                                                                                                                                               |
+| `git checkout -- [file]`                    | reset changes in a single file                                                                                                                                       |
+| `git add --patch [file]`                    | Add part of a file                                                                                                                                                   |
+| `git rev-parse --short HEAD`                | get short commit hash                                                                                                                                                |
+| `git remote add <name> <url>`               | Add a remote server to local git repo                                                                                                                                |
 
+### Rename Tag
+
+1. Create new tag at old tags position: `git tag new old`
+2. Delete Tag: `git tag -d old`
+3. Push New and delete remote old tag: `git push origin new :old`
 
 ## Clone Repo into existing folder
 

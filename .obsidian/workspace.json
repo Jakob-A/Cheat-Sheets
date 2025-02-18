@@ -13,20 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CommandlineTools/usefulTools.md",
+                "file": "OperatingSystems/Linux.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Linux"
             }
           },
           {
             "id": "47928fe7406c8d3b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CommandlineTools/dockercheatsheet8.png"
-              }
+                "file": "OperatingSystems/Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux"
             }
           }
         ]
@@ -48,8 +54,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -58,13 +67,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fstab",
+                "query": "commit has",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -72,7 +83,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -80,14 +93,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 227.5
   },
   "right": {
     "id": "d1ccfec9c19a2aa4",
@@ -103,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CommandlineTools/usefulTools.md",
+                "file": "OperatingSystems/Setup of new Computer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Setup of new Computer"
             }
           },
           {
@@ -120,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CommandlineTools/usefulTools.md",
+                "file": "OperatingSystems/Setup of new Computer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Setup of new Computer"
             }
           },
           {
@@ -134,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -143,8 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CommandlineTools/usefulTools.md"
-              }
+                "file": "OperatingSystems/Setup of new Computer.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Setup of new Computer"
             }
           },
           {
@@ -152,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
@@ -164,7 +189,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -187,36 +214,37 @@
   },
   "active": "e545485fb35a75af",
   "lastOpenFiles": [
+    "OperatingSystems/Gnome.md",
+    "OperatingSystems/Linux.md",
+    "Languages/CMake.md",
+    "CommandlineTools/usefulTools.md",
+    "CommandlineTools/ShellScripting.md",
+    "CommandlineTools/Git.md",
+    "Languages/Python/Pytest.md",
+    "CommandlineTools/ssh.md",
+    "Languages/Python/Build-In Exceptions.md",
+    "Languages/Python/Python.md",
+    "CommandlineTools/radare2.md",
+    "EmbeddedDevelopment/LinuxKernelDevelopment.md",
+    "OperatingSystems/Setup of new Computer.md",
+    "Scripts/UHD.md",
+    "CommandlineTools/dockercheatsheet8.png",
     "Scripts/setupNamespaces.sh",
     "CommandlineTools/vim.md",
     "CommandlineTools/gpg.md",
-    "CommandlineTools/Git.md",
     "CommandlineTools/Docker.md",
     "CommandlineTools/Build Tools.md",
-    "CommandlineTools/radare2.md",
     "CommandlineTools/SerialTools.md",
-    "CommandlineTools/usefulTools.md",
-    "OperatingSystems/Setup of new Computer.md",
-    "OperatingSystems/Linux.md",
-    "CommandlineTools/dockercheatsheet8.png",
-    "Languages/Python/Build-In Exceptions.md",
-    "Languages/Python/Python.md",
-    "Languages/Python/Pytest.md",
     "CommandlineTools/Virtio.md",
     "CommandlineTools/GDB-cheat-sheet.pdf",
-    "CommandlineTools/ssh.md",
-    "OperatingSystems/Gnome.md",
     "Languages/Python/Documentation.md",
-    "CommandlineTools/ShellScripting.md",
     "HardwareDev/System Verilog/General Overview.canvas",
     "HardwareDev/VHDL/Entity & Architecture.md",
     "HardwareDev/VHDL/Data Types.md",
     "HardwareDev/VHDL/Package.md",
     "HardwareDev/VHDL/Multiplexer.md",
     "HardwareDev/VHDL/Process.md",
-    "HardwareDev/VHDL/Testbenches.md",
     "HardwareDev/VHDL/General Overview.canvas",
-    "HardwareDev/AXI.md",
     "images",
     "HardwareDev/images/AXI4-write-channel-architecture.png",
     "HardwareDev/images/AXI4-read-channel-architecture.png",

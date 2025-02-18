@@ -21,6 +21,10 @@ Some useful tools for the command line, which doesn't need a own cheat sheet.
 | `find . -name [file_name]xargs grep [Pattern]` | search in files with specific name                                  |
 | `identify -verbose [path-to-image]`            | show format and properties of image files                           |
 | `sudo lshw -short`                             | List Hardware of the current machine                                |
+| `findmnt`                                      | See all mounted disks                                               |
+| `sudo fdisk <drive device>`                    | Change partitioning table of the corresponding drive                |
+| `sudo mkfs.ext4`                               | Create new file system                                              |
+| `sudo ethtool -T <interface>`                  | See time stamping parameters for network interface                  |
 
 ## keep ssh connection alive
 

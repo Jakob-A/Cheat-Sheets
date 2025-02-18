@@ -25,3 +25,6 @@
 - [x] Calibre
 - [ ] setup ssh config/keys
 - [ ] Latex
+
+### Fix Matlab Rendering Issues
+https://de.mathworks.com/matlabcentral/answers/392743-r2018a-glexception-error-on-linux?#answer_428434

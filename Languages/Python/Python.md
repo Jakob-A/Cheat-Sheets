@@ -51,7 +51,7 @@ except SomeException as e:
         LOG.warn(f"Error Error :) {str(e)}")
 ```
 
-## Create Copy of List
+## Create Copy of List (only pointer)
 
 ```Python
 mylist = thislist.copy()
